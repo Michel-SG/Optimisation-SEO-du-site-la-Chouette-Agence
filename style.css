@@ -521,12 +521,19 @@ input{
     height:25px;
 }
 
+input:focus{
+    border: 2px solid #15DEA5;
+}
+
 .form-control--border{
     border-color: #919191;
     box-shadow: none;
     width: 298px;
     margin-left: 4px;
     height: 100px;
+}
+.form-control--border:focus{
+    border: 2px solid #15DEA5; 
 }
 
 .scrollToTop {
@@ -885,6 +892,7 @@ p.tc-color {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+    border:2px solid #15DEA5;
 }
 
 .ltc-white {
