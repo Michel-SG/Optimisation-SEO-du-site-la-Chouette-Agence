@@ -336,6 +336,10 @@ a:hover {
     padding: 5px;
     margin-right: 50px;
 }
+.nav>li:hover{
+    background: #F06B2D !important;
+    
+}
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
@@ -343,7 +347,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: transparent; 
+    color: #FFF!important;;  
 }
 
 .navbar-toggle {
@@ -522,7 +527,7 @@ input{
 }
 
 input:focus{
-    border: 2px solid #15DEA5;
+    border: 2px solid #F06B2D;
 }
 
 .form-control--border{
@@ -533,7 +538,7 @@ input:focus{
     height: 100px;
 }
 .form-control--border:focus{
-    border: 2px solid #15DEA5; 
+    border: 2px solid #F06B2D; 
 }
 
 .scrollToTop {
@@ -691,10 +696,6 @@ legend{
     font-size: 16px;
     
 }
-/*A revoir*/
-/*fieldset{
-    margin: 10px;
-}*/
 
 #form_1{
 width: 95%;
@@ -879,11 +880,13 @@ p.tc-color {
     background: #F06B2D;
     color: #FFFFFF!important;
     margin-left: 10px;
+    
 }
 
 .btn-form{
     margin-left: 340px; 
 }
+
 
 .col-padding{
     margin-left: 30px;
@@ -892,7 +895,8 @@ p.tc-color {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
-    border:2px solid #15DEA5;
+   /* border:1px solid #F06B2D;*/
+    cursor: pointer;
 }
 
 .ltc-white {
@@ -900,7 +904,7 @@ p.tc-color {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #F06B2D!important;
 }
 
 .ltc-atomic-tangerine {
