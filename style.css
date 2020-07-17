@@ -333,8 +333,10 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    font-weight: bold;
     padding: 5px;
     margin-right: 50px;
+    background: #cac0ba!important;
 }
 .nav>li:hover{
     background: #F06B2D !important;
@@ -343,6 +345,7 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    color: #000;
 }
 
 .nav > li a:hover,
@@ -892,7 +895,7 @@ p.tc-color {
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000!important;
     border:2px solid #F06B2D;
     cursor: pointer;
 }
