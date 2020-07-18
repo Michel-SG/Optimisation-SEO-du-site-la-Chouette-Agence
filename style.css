@@ -18,13 +18,15 @@ button {
     outline: none!important;
     text-decoration: none;
 }
-
+a{
+    border: 1px dashed #FFF;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
 a:focus{
-    border: 0.01px dashed #c27956;
+    border: 1px dashed #c27956;
 }
 
 #page-loading-blocs-notifaction {
@@ -339,11 +341,6 @@ a:focus{
     font-weight: bold;
     padding: 5px;
     margin-right: 50px;
-    background: #cac0ba!important;
-}
-.nav>li:hover{
-    background: #F06B2D !important;
-    
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -354,7 +351,7 @@ a:focus{
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent; 
-    color: #FFF!important;;  
+    color: #F06B2D !important;  
 }
 
 .navbar-toggle {
