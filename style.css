@@ -23,6 +23,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a:focus{
+    border: 0.01px dashed #c27956;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -893,7 +896,8 @@ p.tc-color {
     margin-left: 30px;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus-within{
     background: #c27956!important;
     color: #000!important;
     border:2px solid #F06B2D;
@@ -904,7 +908,8 @@ p.tc-color {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover,
+.ltc-white:focus {
     color: #F06B2D!important;
 }
 
